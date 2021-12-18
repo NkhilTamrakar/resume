@@ -1,0 +1,102 @@
+#main{
+    width: 100%;
+  display: flex;
+  
+}
+
+#main div:nth-of-type(1) {flex-grow: 1}
+#main div:nth-of-type(2) {flex-grow: 2}
+
+.pic img{
+
+    height:40vh;
+    width: 40vh;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin:19% 20%;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+.pic img:hover{
+    height:42vh;
+    width:42vh;
+}
+.message{
+    color: white;
+    margin-top: 4%;
+    margin-left: 9%;
+    font-size: 23px;
+    font-family:'Montserrat';
+    line-height: 1.6;
+    
+
+}
+.message p{
+    font-size: 30px;
+    color: cornsilk;
+    font-weight: bolder;
+    transition: 1s;
+}
+.message p:hover{
+    color: rgb(246, 237, 237);
+    font-size: 35px;
+}
+.super{
+    background-image: url(../about/illust1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 30%;
+    background-attachment: fixed;
+    
+}
+@media only screen and (max-width:361px){
+    #main{
+        width: 360px;
+      display: flex;
+      
+    }
+    
+    #main div:nth-of-type(1) {flex-grow: 1}
+    #main div:nth-of-type(2) {flex-grow: 2}
+    
+    .pic img{
+    
+        height:15vh;
+        width: 15vh;
+        border-radius: 50%;
+        border: 2px solid white;
+        margin:19% 20%;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    .message{
+        color: rgb(255, 255, 255);
+        margin-top: 4%;
+        margin-left: 9%;
+        font-size: 6px;
+        font-family:'Montserrat';
+        line-height: 1.6;
+    }
+    .message p{
+        font-size: 6px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        transition: 1s;
+    }
+    .message p:hover{
+        color: rgb(246, 237, 237);
+        font-size: 7px;
+    }
+    .super{
+        background-image: url(../about/illust1.jpg);
+        background-repeat: repeat-y;
+        background-size: 100%;
+        background-attachment: fixed;
+        
+        
+    }
+    .pic img:hover{
+        height:18vh;
+        width:18vh;
+    }
+}

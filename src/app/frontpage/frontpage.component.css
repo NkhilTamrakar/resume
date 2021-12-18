@@ -1,0 +1,132 @@
+.main{
+    background-image: url(../frontpage/illust.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+.intro{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: 9vh;
+    padding-top: 14vh;
+    padding-bottom: 11vh;
+    color: whitesmoke;
+    font-family:'Kaushan Script', cursive;
+}
+.intro p{
+    padding-bottom: 0%;
+}
+.msg{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family:'Montserrat';
+    line-height: 1.6;
+}
+.msg a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family:  'Courgette', cursive;
+    animation: inlarge;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.logo{
+    padding-top: 2%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family:'Montserrat';
+    line-height: 1.6;
+    
+}
+.logo a{
+    color: white;
+}
+.logo i{
+    padding-right: 2%;
+}
+@keyframes inlarge {
+    from {color: lightcyan;}
+    to { color:blue;}
+}
+@media only screen and (max-width:560px) {
+    .main{
+        background-image: url(../frontpage/illust.jpg);
+        background-clip: border-box; 
+        scroll-behavior: smooth;
+        background-position-y: top;
+        background-attachment: fixed;
+        background-repeat:round;
+        min-height: 100vh;
+
+    }
+    .intro{
+        width:100%;
+        align-content: center;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 3vh;
+        padding-bottom: 0%;
+        color: whitesmoke;
+        font-family:'Kaushan Script', cursive;
+    }
+    .intro svg{
+        display: none;
+    }
+    .intro p{
+        padding-bottom: 0%;
+        padding-top: 20%;
+        font-size: 6rem;
+        line-height: 1.6;
+
+    }
+    .msg{
+        width:100%;
+        align-content: center;
+        text-align: center;
+        font-size: 3rem;
+        color: white;
+        font-family:'Montserrat';
+        line-height: 1.2;
+    }
+    .msg a{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        font-family:  'Courgette', cursive;
+        animation: inlarge;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    .logo{
+        padding-top: 2%;
+        width: 360px;
+        align-content: center;
+        text-align: center;
+        font-size: 9px;
+        color: rgb(255, 255, 255);
+        font-family:'Montserrat';
+        line-height: 1.5;
+        
+    }
+    .logo a{
+        color: white;
+    }
+    .logo i{
+        padding-right: 2%;
+    }
+    @keyframes inlarge {
+        from {color: lightcyan;}
+        to { color:blue;}
+    }
+    
+}

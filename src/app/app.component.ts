@@ -1,3 +1,4 @@
+import * as AOS from 'aos';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'resume';
+  ngOnInit(){
+    AOS.init();
+  }
+  
 }

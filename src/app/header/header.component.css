@@ -1,0 +1,84 @@
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+.logo{
+    width: 160px;
+    height: auto;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:9px 30px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.9s;
+    border-radius: 10px;
+    border-bottom: solid wheat;
+    padding: 7px 10px;
+}
+nav ul li a:hover{
+    color: tomato;
+    background-color: wheat;
+    color: black;
+}
+nav h1{
+    color: wheat;
+    font-size: 40px;
+    font-family: 'Shalimar', cursive;
+    padding-left: 40px;
+
+}
+svg{
+    display: none;
+}
+@media only screen and (max-width:560px){
+   .main{
+       background-color: black;
+
+    min-height: 100vh;
+   }
+   .main h1{
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px salmon;
+    font-size: 5rem;
+    
+}
+   nav{
+       display: block;
+       padding-top: 30%;
+   }
+   nav ul li{
+       display:list-item;
+       padding-top: 9%;
+       text-align: center;
+       
+    
+   }
+   nav ul{
+       align-content: center;
+       padding-top: 30%;
+
+   }
+   nav ul li a {
+       color: rgb(92, 223, 228);
+       font-family:cursive;
+       font-size: 2rem;
+       border: none;
+       text-decoration: underline white;
+   }
+
+    svg{
+        display: block;
+    }
+
+
+}
